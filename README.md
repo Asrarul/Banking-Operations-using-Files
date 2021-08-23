@@ -11,7 +11,7 @@ The **Account_number.py** is the only file which is imported in **Registration.p
 
 ***Step 3:*** For "*New User Registration*", Provide all the required informations and Create an account. If "*login*" you have to provide the correct **Username** and its **Password**. You can try Login as many times as you want...
 
-( **IMPORTANT NOTE:-** `All the data you've entered during New User Registration had been written in a Text file called Database.txt. You can check it out...` ) 
+( **IMPORTANT NOTE:-** `All the data you've entered during New User Registration had been written in a Text file called Database.txt.  You can check it out...` ) 
 
 
 ***Step 4:*** After successfully logging in:
