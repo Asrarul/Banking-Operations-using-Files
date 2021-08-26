@@ -1,6 +1,6 @@
 def Deposit(User):
     i, file = '', ''
-    with open("Registration.txt", 'r+') as f:
+    with open("Database.txt", 'r+') as f:
         Usr = f.readlines()
         for i in Usr:
             if User == i:
@@ -15,9 +15,9 @@ def Deposit(User):
                 d_amt1 = float(Usr1[3])+d_amt
                 i = i.replace(Usr1[3], str(d_amt1))
                 break
-    with open("Registration.txt", 'r+') as f:
+    with open("Database.txt", 'r+') as f:
         file = f.read()
         file = file.replace(User, i)
-    with open("Registration.txt", 'w') as f:
+    with open("Database.txt", 'w') as f:
         f.write(file)
     return i
