@@ -1,5 +1,5 @@
 def Accno():
-    with open("Registration.txt",'r+') as f:
+    with open("Database.txt",'r+') as f:
         Acc_no=(f.readlines())
         try:
            Acc_no=Acc_no[-1]
