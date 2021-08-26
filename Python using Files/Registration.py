@@ -3,7 +3,7 @@ from Account_number import *
 
 def new_user():
     flag = True
-    with open("Registration.txt", 'r+') as f:
+    with open("Database.txt", 'r+') as f:
         usr_name = (f.readlines())
         name = input("Name        : ")
 
