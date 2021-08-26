@@ -10,13 +10,18 @@ print('\n    ++++++Banking++++++   ')
 
 flag=True
 while(flag):
-    opt=int(input('''\n( 1 ) New user\n( 2 ) Login\n  '''))
+    opt=int(input('''\n( 1 ) New user\n( 2 ) Login\n( 3 ) Exit\n  '''))
     if opt==1:
         new_user()
         flag=True
-    else:
+    elif opt==2:
         User=login()
         flag=False
+    elif opt==3:
+        break
+    else:
+        print('\n****Invalid Request****')
+        print('\n******Try Again!*******')
 
 flag=True
 while flag:
