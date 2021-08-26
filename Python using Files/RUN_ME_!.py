@@ -4,7 +4,7 @@ from Check_details import *
 from Deposit import *
 from Withdraw import *
 from View_balance import *
-
+import sys;
 
 print('\n    ++++++Banking++++++   ')
 
@@ -18,7 +18,7 @@ while(flag):
         User=login()
         flag=False
     elif opt==3:
-        break
+        sys.exit()
     else:
         print('\n****Invalid Request****')
         print('\n******Try Again!*******')
