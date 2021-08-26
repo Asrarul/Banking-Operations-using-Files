@@ -1,9 +1,8 @@
 def login():
     User=''
-    with open("Registration.txt",'r+') as f:
+    with open("Database.txt",'r+') as f:
         usr_name=f.readlines()
         flag=True
-        #print(usr_name)
         while flag:
             user_name = input('Username : ')
             pass_word = input('Password : ')
